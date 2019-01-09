@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    height: 100vh;
+    font-size: 5em;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    text-shadow: 12px 12px 16px #30363E
+   
+}
+*{
+    background-color: #373E47;
+}
+section{
+    height: 100%;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: center;
+    align-items: middle;
+    place-items: center;
+    height: 100vh;
+}
+li{
+    color: whitesmoke;
+}
+span{
+    width: 80px;
+    height: 80px;
+    position: relative;
+    align-items: middle;
+    bottom: 0;
+    left: 0;
+    background: #30363E;
+    border-radius: 80%;
+}
+p{
+    font-size: 0.3em;
+    place-items: center;
+}
